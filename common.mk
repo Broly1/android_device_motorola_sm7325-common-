@@ -561,3 +561,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm7325-common/sm7325-common-vendor.mk)
+
+# Private keys
+-include vendor/evolution-priv/keys/keys.mk
